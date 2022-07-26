@@ -26,9 +26,14 @@
       color: white;
     }
   }
-  &__icans {
-    a {
+  &__icons {
+    i {
+      font-size: 30px;
       margin-left: 10px;
+      transition: 0.5s;
+      &:hover {
+        color: red;
+      }
     }
   }
 }

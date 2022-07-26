@@ -905,8 +905,13 @@ template {
   text-decoration: none;
   color: white;
 }
-.footer__icans a {
+.footer__icons i {
+  font-size: 30px;
   margin-left: 10px;
+  transition: 0.5s;
+}
+.footer__icons i:hover {
+  color: red;
 }
 
 .footer__list-anchor {
